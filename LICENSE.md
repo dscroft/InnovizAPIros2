@@ -9,7 +9,7 @@ If you are accepting this Agreement on behalf of your employer or another entity
 
 Any Innoviz obligation hereunder may be performed (in whole or in part), and any Innoviz right hereunder may be exercised (in whole or in part), by an affiliated entity ("Affiliate") of Innoviz. Similarly, Innoviz may subcontract its performance (in whole or in part) hereunder to its Affiliates.
 
-Innoviz reserves the right to modify this Agreement at any time by posting the modified Agreement at https://github.com/InnovizTechnologies/InnovizAPI/blob/master/LICENSE.md.  Such modifications will be effective upon posting (unless Innoviz specifies a later effective date). In such cases, Innoviz will also update the “Last Updated” reference set forth at the beginning of this Agreement.
+Innoviz reserves the right to modify this Agreement at any time by posting the modified Agreement at https://github.com/InnovizTechnologies/InnovizAPI/blob/main/LICENSE.md.  Such modifications will be effective upon posting (unless Innoviz specifies a later effective date). In such cases, Innoviz will also update the “Last Updated” reference set forth at the beginning of this Agreement.
 
 **1.	<ins>DEFINITIONS</ins>**
 
@@ -37,7 +37,7 @@ Subject to the terms and conditions of this Agreement, Innoviz grants Licensee a
 
 As a condition to the License:
 
-**(a)	Attribution:** Licensee must provide one of the following attributions in any of Licensee's Derivative IP: "This [type of work, e.g., publication, software, model] was made using the Innoviz Open Dataset, provided by Innoviz Technologies Ltd. under license terms available at https://github.com/InnovizTechnologies/InnovizAPI/blob/master/LICENSE.txt." 
+**(a)	Attribution:** Licensee must provide one of the following attributions in any of Licensee's Derivative IP: "This [type of work, e.g., publication, software, model] was made using the Innoviz Open Dataset, provided by Innoviz Technologies Ltd. under license terms available at https://github.com/InnovizTechnologies/InnovizAPI/blob/main/LICENSE.txt." 
 
 **(b)	Sharing:** Licensee may share the Dataset as follows: 
 
