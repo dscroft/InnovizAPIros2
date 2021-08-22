@@ -25,8 +25,6 @@ The API is used by third-party visualization utilities to enable them to view In
   - [Installation](#installation-1)
     - [ROS Melodic for Ubuntu 18.04](#ros-melodic-for-ubuntu-1804)
     - [Catkin for Ubuntu 18.04](#catkin-for-ubuntu-1804)
-    - [ROS Noetic for Ubuntu 20.04](#ros-noetic-for-ubuntu-2004)
-    - [Catkin for Ubuntu 20.04](#catkin-for-ubuntu-2004)
   - [Build ROS examples](#build-ros-examples)
   - [Stream a live point cloud from a device](#stream-a-live-point-cloud-from-a-device)
   - [Stream a point cloud from an Innoviz device recording](#stream-a-point-cloud-from-an-innoviz-device-recording)
@@ -147,37 +145,6 @@ sudo apt-get install cmake python-catkin-pkg python-empy python-nose python-setu
 ```
 Additional information can be found at https://wiki.ros.org/catkin.
 
-### ROS Noetic for Ubuntu 20.04
-To install ROS Noetic run the following commands:
-```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-
-sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-
-sudo apt update
-
-sudo apt install ros-noetic-desktop-full
-
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-echo /opt/ros/noetic/lib | sudo tee /etc/ld.so.conf.d/ros.conf
-sudo ldconfig
-
-bash
-
-source ~/.bashrc
-
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-```
-Addition information can be found at https://wiki.ros.org/noetic/Installation/Ubuntu.
-
-### Catkin for Ubuntu 20.04
-To install Catkin for Ubuntu 20.04 run the following commands:
-```
-sudo apt-get install ros-melodic-catkin
-
-sudo apt-get install cmake python3-catkin-pkg python3-empy python3-nose python3-setuptools libgtest-dev build-essential
-```
-Additional information can be found at https://wiki.ros.org/catkin.
 
 ## Build ROS examples
 To build the ROS examples, go to the [ros/catkin_ws](ros/catkis_ws) directory and run the following commands:
