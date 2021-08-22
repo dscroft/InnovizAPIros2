@@ -39,7 +39,7 @@ The API is used by third-party visualization utilities to enable them to view In
 
 
 # C++
-API documentation can be found [here](https://htmlpreview.github.io/?https://github.com/InnovizTechnologies/InnovizAPI/blob/main/docs/c%2B%2B/html/index.html).
+API documentation can be found at [docs/html/index.html](https://htmlpreview.github.io/?https://github.com/InnovizTechnologies/InnovizAPI/blob/main/docs/c%2B%2B/html/index.html).
 To use the API, add the path of the [include](include) folder to the compiler's "Include Directories" list, and link against the appropriate innovizApi library in the [lib](lib) folder.
 
 ## Building the example - Windows
