@@ -11,6 +11,7 @@ The LiDAR uses TCP and UDP to transmit the point cloud and allow configuration: 
 The API is used by third-party visualization utilities to enable them to view Innoviz point clouds. 
 
 ### Table of Contents:
+- [Supported Operating Systems](#supported-operating-systems)
 - [C++](#c)
   - [Building the example - Windows](#building-the-example---windows)
   - [Building the example - Linux](#building-the-example---linux)
@@ -32,7 +33,7 @@ The API is used by third-party visualization utilities to enable them to view In
 - [Vertical Blooming](#vertical-blooming)
 
 
-### Supported Operating Systems:
+# Supported Operating Systems
 - Windows 10 
     - Requires [Npcap installation](https://nmap.org/npcap/) 
 - Ubuntu 18.04
