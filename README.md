@@ -170,17 +170,3 @@ source ./devel/setup.sh
 
 roslaunch ./src/launch/file_reader_ros.launch
 ```
-# Vertical Blooming
-The API can be configured to mark or remove pixels that are caused by vertical blooming. When running with this mode enabled the API will achieve a lower FPS.
-<br>
-This option can be configred by setting the 'vb_usage_mode' attributes in the configuration json file.
-The legal values for this option are:
-- **0** - Disabled.
-- **1** - Mark vertical blooming pixels.
-- **2** - Remove vertical blooming pixels.  
-
-The following examples use this mode:
-- [C++ OM Deblooming](examples/cpp/OM_DeBlooming_Example)
-- [C++ Recording Deblooming](examples/cpp/OM_DeBlooming_Recording_Example)
-- [Python OM Deblooming](examples/python/om_get_frame_example.py)
-- [Python Recording Deblooming](examples/python/recording_get_frame_deblooming_example.py)
