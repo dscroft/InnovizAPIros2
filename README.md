@@ -28,7 +28,6 @@ The API is used by third-party visualization utilities to enable them to view In
   - [Build ROS examples](#build-ros-examples)
   - [Stream a live point cloud from a device](#stream-a-live-point-cloud-from-a-device)
   - [Stream a point cloud from an Innoviz device recording](#stream-a-point-cloud-from-an-innoviz-device-recording)
-- [Vertical Blooming](#vertical-blooming)
 
 
 # Supported Operating Systems
